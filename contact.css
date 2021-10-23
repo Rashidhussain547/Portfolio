@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+/**Styling for 
+navigation bar**/
+
+
+nav.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: #e91e63;
+}
+nav.navigation:hover{
+    opacity: 0.8;
+}
+.nav-bar ul{
+    justify-content: center;
+    text-align: center;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-right: 55px;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.nav-bar ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.nav-text::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: white;
+    transition: width .3s;
+}
+.nav-text:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** Styling for 
+contact detail section**/
+
+
+
+
+.contact-main{
+    margin-top: 60px;
+}
+.contact-main .contact-title{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+.contact-main .contact-title p span{
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1px;
+}
+.contact-main .contact-title p span::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-left: 44.5%;
+}
+.contact-main .contact-title p span::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    right:  0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-right: 44.5%;
+}
+
+.contact-area{
+    width: 100%;
+}
+.contact-area-left{
+    width: 40%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.contact-area-right{
+    width: 40%;
+    float: right;
+    margin-top: 100px;
+}
+.contact-area-left p{
+    margin-bottom: 30px;
+}
+.contact-area-left i{
+    color: #e91e63;
+    font-size: 30px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.contact-area-left .content{
+    display: flex;
+    margin-bottom: 25px;
+}
+.contact-area-right form{
+    margin-top: 20px;
+}
+.contact-area-right .field-name_email input{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.contact-area-right .field-subject input{
+    padding: 10px 20px;
+    width: 78%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact-area-right .field-textarea textarea{
+    padding: 10px 20px;
+    width: 78%;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.contact-area-right .field-button button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #e91e63;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact-area-right .field-button button:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+/** Styling for
+Footer section **/
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 45%;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.footer p span{
+    color: #e91e63;
+}
+
+

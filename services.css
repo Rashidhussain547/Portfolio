@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+/**Styling for 
+navigation bar**/
+
+
+nav.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: #e91e63;
+}
+nav.navigation:hover{
+    opacity: 0.8;
+}
+.nav-bar ul{
+    justify-content: center;
+    text-align: center;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-right: 55px;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.nav-bar ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.nav-text::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: white;
+    transition: width .3s;
+}
+.nav-text:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+
+
+/** Styling for 
+services detail section**/
+
+
+
+.service-main{
+    margin-top: 60px;
+}
+.service-main .service-title{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+.service-main .service-title p span{
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1px;
+}
+.service-main .service-title p span::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 2px;
+    left: 0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-left: 43%;
+}
+.service-main .service-title p span::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 2px;
+    right:  0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-right: 43%;
+}
+.service-card{
+    height: 200px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.6);
+    margin-top: 100px;
+    margin-left: 115px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.service-card h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.service-card p{
+    font-weight: 540;
+}
+.service-card i{
+    font-size: 50px;
+    color: #e91e63;  
+    margin-top: 5px;
+}
+.service-card:hover{
+    background-color: #e91e63;
+    color: white;
+}
+.service-card:hover i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/** Styling for
+Footer section **/
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 45%;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.footer p span{
+    color: #e91e63;
+}
+

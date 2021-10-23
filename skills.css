@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+/**Styling for 
+navigation bar**/
+
+
+nav.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: #e91e63;
+}
+nav.navigation:hover{
+    opacity: 0.8;
+}
+.nav-bar ul{
+    justify-content: center;
+    text-align: center;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-right: 55px;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.nav-bar ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.nav-text::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: white;
+    transition: width .3s;
+}
+.nav-text:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+
+
+
+
+/** Styling for 
+skills detail section**/
+
+
+
+
+.skill-main{
+    margin-top: 60px;
+}
+.skill-main .skill-title{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+.skill-main .skill-title p span{
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1px;
+}
+.skill-main .skill-title p span::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-left: 44.5%;
+}
+.skill-main .skill-title p span::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    right:  0;
+    top: 27.2%;
+    background-color: black;
+    z-index: -1;
+    margin-right: 44.5%;
+}
+.skill-area{
+    width: 100%;
+    margin-top: 100px;
+}
+.skill-area-left{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+.skill-area-left h2{
+    line-height: 50px;
+}
+.skill-area-left a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e91e63;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.skill-area-left a:hover{
+    background-color: black;
+}
+
+.skill-area-right{
+    width: 40%;
+    float: right;
+    margin-right: 60px;
+}
+.skill-area-right .bars{
+    margin-bottom: 25px;
+}
+.skill-area-right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill-area-right span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.skill-area-right .html-line1{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+}
+.skill-area-right .html-line2{
+    width: 90%;
+    height: 5px;
+    background-color: #e91e63;
+}
+
+.skill-area-right .css-line1{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+    margin-bottom: 25px;
+}
+.skill-area-right .css-line2{
+    width: 70%;
+    height: 5px;
+    background-color: #e91e63;
+}
+.skill-area-right .js-line1{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+    margin-bottom: 25px;
+}
+.skill-area-right .js-line2{
+    width: 30%;
+    height: 5px;
+    background-color: #e91e63;
+}
+.skill-area-right .wp-line1{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+    margin-bottom: 25px;
+}
+.skill-area-right .wp-line2{
+    width: 60%;
+    height: 5px;
+    background-color: #e91e63;
+}
+.skill-area-right .c-line1{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+}
+.skill-area-right .c-line2{
+    width: 40%;
+    height: 5px;
+    background-color: #e91e63;
+}
+
+
+
+
+
+
+
+
+
+/** Styling for
+Footer section **/
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 45%;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.footer p span{
+    color: #e91e63;
+}
+
+
+
